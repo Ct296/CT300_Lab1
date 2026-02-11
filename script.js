@@ -57,3 +57,27 @@ function calculate() {
         resultScreen.value = "Error";
     }
 }
+// 5. Hỗ trợ bàn phím máy tính (Keyboard)
+document.addEventListener('keydown', function(event) {
+    const key = event.key;
+
+    // Danh sách các phím cho phép
+    const allowedKeys = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '+', '-', '*', '/', '%', '(', ')'];
+
+    if (allowedKeys.includes(key)) {
+        event.preventDefault();
+        appendValue(key);
+    } 
+    else if (key === 'Enter') {
+        event.preventDefault();
+        calculate();
+    } 
+    else if (key === 'Backspace') {
+        event.preventDefault();
+        deleteChar();
+    } 
+    else if (key === 'Escape') {
+        event.preventDefault();
+        clearAll();
+    }
+});
