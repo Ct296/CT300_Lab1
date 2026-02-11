@@ -20,3 +20,9 @@ Dự án hỗ trợ thực hiện các phép toán cơ bản và một số ch�
   - Enter → Tính kết quả
   - Backspace → Xóa 1 ký tự
   - Escape → Xóa toàn bộ
+
+## Thành viên nhóm
+
+- Huỳnh Khánh Linh - B2306627
+- Nguyễn Nhựt Thanh - B2306640
+- Chung Tình - B2306643
